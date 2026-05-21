@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanush Mohan | Aspiring Cloud Engineer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Dhanush Mohan</h1>
+
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Aspiring Cloud Engineer</h2>
+
+            <p>
+                Building hands-on cloud infrastructure, container orchestration,
+                automation and monitoring projects using AWS,
+                Terraform, Docker, Kubernetes, and CI/CD workflows.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/dhanush-mohan-cloud" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/dhanush-mohan-cloud" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="card">
+            <p>
+                I completed my Computer Science degree and currently focused on building practical projects related to cloud infrastructure, container orchestration, workflow automation, and monitoring systems.
+            </p>
+
+            <br>
+
+            <p>
+                My learning journey is centered around AWS, Infrastructure as Code, CI/CD pipelines, observability, and scalable deployment workflows.
+            </p>
+
+            <br>
+
+            <p>
+                I am currently targeting Cloud & DevOps Engineer and Infrastructure-related roles where I can continue developing hands-on experience with modern cloud technologies.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Cloud & Infrastructure</h3>
+                <ul>
+                    <li>AWS</li>
+                    <li>Terraform</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Containers & Orchestration</h3>
+                <ul>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>CI/CD & Automation</h3>
+                <ul>
+                    <li>GitHub Actions</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Monitoring & Observability</h3>
+                <ul>
+                    <li>Prometheus</li>
+                    <li>Grafana</li>
+                    <li>CloudWatch</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Systems & Networking</h3>
+                <ul>
+                    <li>Linux</li>
+                    <li>Networking Basics</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="featured-project">
+            <h3>Cloud Native Deployment Platform on AWS</h3>
+
+            <p>
+                Built an end-to-end cloud-native deployment platform using AWS, Terraform, Docker, Kubernetes, GitHub Actions, and monitoring tools.
+                Automated infrastructure provisioning, containerized applications, configured CI/CD pipelines, integrated secrets management, and
+                implemented monitoring and observability using Prometheus, Grafana, and CloudWatch.
+            </p>
+
+            <div class="tech-stack">
+                <span>AWS</span>
+                <span>Terraform</span>
+                <span>Docker</span>
+                <span>Kubernetes</span>
+                <span>GitHub Actions</span>
+                <span>Python</span>
+                <span>Prometheus</span>
+                <span>Grafana</span>
+                <span>CloudWatch</span>
+                <span>Secrets Manager</span>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>NGINX Web Server Deployment on AWS EC2</h3>
+
+                <p>
+                    Launched and configured an AWS EC2 Linux instance and deployed a website using NGINX.
+                    Configured security groups, remote server access through SSH, and monitored instance metrics using CloudWatch.
+                </p>
+
+                <div class="tech-stack">
+                    <span>AWS EC2</span>
+                    <span>NGINX</span>
+                    <span>CloudWatch</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>AWS Static Portfolio Website</h3>
+
+                <p>
+                    Built and deployed a static portfolio website using Amazon S3 static website hosting.
+                    Configured bucket permissions and public access settings to host web content directly from AWS cloud storage.
+                </p>
+
+                <div class="tech-stack">
+                    <span>AWS S3</span>
+                    <span>IAM</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="card contact-card">
+
+            <p>Email</p>
+
+            <p class="copy-email" onclick="copyEmail()">
+                dhanushmohanpakkam@gmail.com
+            </p>
+
+            <p id="copy-message"></p>
+
+            <div class="contact-links">
+                <a href="https://github.com/dhanush-mohan-cloud" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/dhanush-mohan-cloud" target="_blank">LinkedIn</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Dhanush Mohan | Cloud Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
